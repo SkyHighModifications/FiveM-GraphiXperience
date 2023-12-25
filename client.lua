@@ -1,5 +1,4 @@
-s, _ = 0xFFFFFFFF, 23
-a = "visualsettings.dat"
+s, a = 0xFFFFFFFF, "visualsettings.dat"
 
 function A(B, C)
     C = C or "C"
@@ -19,9 +18,9 @@ local function G(H, I)
     return H:sub(1, #I) == I
 end
 
-_Citizen_CreateThread(function()
+Citizen.CreateThread(function()
     while true do
-        _Citizen_Wait(500) -- Adjust the wait time as needed
+        Citizen.Wait(500) 
 
         local J = LoadResourceFile(GetCurrentResourceName(), a)
 
