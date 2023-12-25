@@ -1,4 +1,4 @@
-s, _ = 0xFFFFFFFF
+s, _ = 0xFFFFFFFF, 23
 a = "visualsettings.dat"
 
 function A(B, C)
