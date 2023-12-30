@@ -1,45 +1,32 @@
-s, a = 0xFFFFFFFF, "visualsettings.dat"
-
-function A(B, C)
-    C = C or "C"
-
-    local D = {}
-    local E = 1
-
-    for F in string.gmatch(B, "([^" .. C .. "]+)") do
-        D[E] = F
-        E = E + 1
+function s(i, s)
+    if s == nil then s = "%s" end
+    local t={} ; i=1
+    for r in string.gmatch(i, "([^"..s.."]+)") do
+        t[i] = r
+        i = i + 1
     end
-
-    return D
+    return t
 end
 
-local function G(H, I)
-    return H:sub(1, #I) == I
+local function a()
+    local f = LoadResourceFile(GetCurrentResourceName(), "visualsettings.dat")
+    local l = s(f, "\n")
+    for _, n in ipairs(l) do
+        if not (n:sub(1, 1) == '#' or n:sub(1, 2) == '//') and (n ~= "" or n ~= " ") and #n > 1 then
+            n = n:gsub("%s+", " ")
+            local c = s(n, " ")
+            if c[1] ~= nil and c[2] ~= nil and tonumber(c[2]) ~= nil then
+                if c[1] ~= 'weather.CycleDuration' then    
+                    Citizen.InvokeNative(0x7BAE68775557AE0B, c[1], tonumber(c[2]) + .0)
+                end
+            end
+        end
+    end
 end
 
 Citizen.CreateThread(function()
     while true do
-        Citizen.Wait(500) 
-
-        local J = LoadResourceFile(GetCurrentResourceName(), a)
-
-        local K = A(J, "\n")
-
-        for _, L in ipairs(K) do
-            if not G(L, '#') and not G(L, '//') and L ~= "" and L ~= " " then
-                L = L:gsub("%s+", " ")
-
-                local M = A(L, " ")
-
-                local N, O = M[1], tonumber(M[2])
-
-                if N and O then
-                    if N ~= 'weather.CycleDuration' then
-                        Citizen.InvokeNative(GetHashKey('SET_VISUAL_SETTING_FLOAT') & s), N, O + 0.0)
-                    end
-                end
-            end
-        end
+        Citizen.Wait(5000)
+        a()
     end
 end)
