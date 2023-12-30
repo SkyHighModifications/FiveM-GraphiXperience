@@ -10,7 +10,7 @@
 fx_version "cerulean"
 game "gta5"
 description "FiveM-GraphiXperience"
-version "1.0.0"
+version "1.0.1"
 author "SkyHigh Modifications / @Papa Smurf / "
 
 files {
