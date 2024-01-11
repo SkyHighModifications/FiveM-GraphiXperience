@@ -10,10 +10,4 @@ This script Effortlessly synchronize the visuals from the server to the client.
 
 Want to get in contact with us? Here are a couple places you can do so:
 
-[Discord](https://discord.gg/tKQgdQuJYF)
-
-[Tebex](https://skyhigh-modifications.tebex.io/)
-
-[UnionMods](https://unionmods.com/viewauthor?author=592)
-
-[GTA5Mods](https://www.gta5-mods.com/users/BerkshireMods)
+[Discord](https://discord.gg/tKQgdQuJYF) | [Tebex](https://skyhigh-modifications.tebex.io/) | [UnionMods](https://unionmods.com/viewauthor?author=592) | [GTA5Mods](https://www.gta5-mods.com/users/BerkshireMods)
