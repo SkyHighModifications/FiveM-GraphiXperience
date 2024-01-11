@@ -6,7 +6,7 @@ This script Effortlessly synchronize the visuals from the server to the client.
 
 ------------------------------------------------------
 
-# SkyHigh Modifications Contact Us
+# Contact Us
 
 Want to get in contact with us? Here are a couple places you can do so:
 
