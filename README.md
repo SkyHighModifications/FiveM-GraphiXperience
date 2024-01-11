@@ -1,5 +1,28 @@
 # FiveM-GraphiXperience VisualSettings
 
-Effortlessly synchronize the 'visualsettings.dat' file from the server to the client.
+Introducing the newest FiveM script by **SkyHigh Modifictions**: *GraphiXperience*.
 
-Ensure the resource is appropriately renamed to "FiveM-GraphiXperience."
+ 
+
+This script Effortlessly synchronize the visuals from the server to the client.
+------------------------------------------------------
+
+ 
+
+# BKing Development Contact Us
+
+Want to get in contact with us? Here are a couple places you can do so:
+
+[Our Discord](https://discord.com/invite/v28Tk7snj4)
+
+[Our Website](https://shop.bradleyking.xyz)
+
+------------------------------------------------------
+
+# SkyHigh Modifications Contact Us
+
+Want to get in contact with us? Here are a couple places you can do so:
+
+[Our Discord](https://discord.gg/tKQgdQuJYF)
+
+[Our Website](https://skyhigh-modifications.tebex.io/)
