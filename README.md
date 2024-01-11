@@ -2,20 +2,7 @@
 
 Introducing the newest FiveM script by **SkyHigh Modifictions**: *GraphiXperience*.
 
- 
-
 This script Effortlessly synchronize the visuals from the server to the client.
-------------------------------------------------------
-
- 
-
-# BKing Development Contact Us
-
-Want to get in contact with us? Here are a couple places you can do so:
-
-[Our Discord](https://discord.com/invite/v28Tk7snj4)
-
-[Our Website](https://shop.bradleyking.xyz)
 
 ------------------------------------------------------
 
